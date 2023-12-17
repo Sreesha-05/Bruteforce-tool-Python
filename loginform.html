@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Login</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+
+	<style>
+		.alert {
+			background: green;
+			padding: 1rem;
+			border-radius: 5px;
+			color: white;
+			margin: 1rem;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3>Login</h3>
+	</div>
+   <div class="container">
+      <form action="/confirm-login" method="POST">
+        <label for="Usernames">Usernames</label>
+        <input
+          type="text"
+          placeholder="Username"
+          class="u-full-width"
+          name="username"
+        />
+        <label for="Password">Password</label>
+        <input
+          type="text"
+          placeholder="Password"
+          class="u-full-width"
+          name="password"
+        />
+        </div>
+</body>
+<button onclick="location.href = 'https://requestswebsite.notanothercoder.repl.co/';" id="myButton" >Login</button>
+</html>
