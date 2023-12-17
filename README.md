@@ -19,6 +19,11 @@ WORKING :
 
 IMPORTANT NOTES :
 
+      The "loginform.html" contains the user loginpage and the passwords are stored in the file "password.txt".
+
+
+DISCLAIMER:
+
       This script is intended for educational and ethical purposes only. 
       Brute-force attacks are not recommended as they can be illegal and may cause harm to the target system. Use it responsibly and with caution.
 
